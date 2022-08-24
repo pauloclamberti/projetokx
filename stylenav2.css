@@ -1,0 +1,200 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+/* Style na navbar.html */
+
+    .navbar {
+        
+        background-color: rgba(224,98,23,1);
+        
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+      
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        
+        
+    }
+    .navbar-right {
+        
+        
+        border-bottom: none;
+       
+   
+
+
+    }
+    
+    .navbar .navbar-brand {
+        background-color: rgba(224,98,23,1);
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        /* Retirar o Sublinhado */
+        text-decoration: none !important    ;
+        /* Colocar a imagem a direita */
+        float: right;
+        margin-right: 1rem;
+
+       
+        
+    }
+    .navbar .navbar-nav {
+        background-color: rgba(224,98,23,1);
+        display: flex;
+        align-items: left;
+        justify-content: flex-end;
+       
+    }
+    .navbar .navbar-nav .nav-item {
+        margin-left: 1rem;
+    }
+    .navbar .navbar-nav .nav-item a {
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+       
+    }
+    .navbar .navbar-nav .nav-item a:hover {
+        color: black;
+   
+    }
+    .navbar .navbar-nav .nav-item .active {
+        color: black;
+        
+    }
+    .navbar .navbar-nav .nav-item .active a {
+        color: black;
+      
+    }
+    .navbar .navbar-nav .nav-item .active a:hover {
+        color: black;
+    
+    }
+    .navbar .navbar-nav .nav-item .active a:focus {
+        color: black;
+    
+    }
+    .navbar .navbar-nav .nav-item .active a:active {
+        color: black;
+        
+    }
+
+
+
+
+#navbarNav {
+  background-color: rgba(224,98,23,1);
+  border-radius: 0px;
+  padding: 0px;
+ 
+position: -webkit-sticky; /* Necessário para funcionar no Safari */
+  
+top: 0;
+
+}
+
+
+.nav-item {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: 'Montserrat' sans-serif;
+    background-color: rgba(224,98,23,1);
+ 
+}
+.navbar-toggler{
+    background-color: rgba(224,98,23,1);
+    
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: 'Montserrat' sans-serif;
+}
+.navbar-expand-lg{
+    background-color: rgba(224,98,23,1);
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: 'Montserrat' sans-serif;
+
+ 
+}
+.navbar-light {
+    background-color: rgba(224,98,23,1);
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: 'Montserrat' sans-serif;
+    
+}
+
+.bg-light{
+    background-color: rgba(224,98,23,1) !important;
+ 
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: 'Montserrat' sans-serif;
+   
+}
+.collapse .navbar-collapse {
+    background-color: rgba(224,98,23,1);
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: 'Montserrat' sans-serif;
+    
+    
+  
+
+}
+.navbar-toggler-icon{
+    background-color: rgba(224,98,23,1);
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: 'Montserrat' sans-serif;
+   
+}
+
+

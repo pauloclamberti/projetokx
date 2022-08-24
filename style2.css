@@ -1,0 +1,233 @@
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+.mediaViewInfo {
+	--web-view-name: SEGUNDA;
+	--web-view-id: SEGUNDA;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: SEGUNDA;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+	display: flex;
+    flex-direction: column;
+}
+
+ 
+
+    
+
+  
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#SEGUNDA {
+	position: absolute;
+	width: 1700px;
+	height: 900px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: SEGUNDA;
+	--web-view-id: SEGUNDA;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+
+#MERCADO_WEB {
+	left: 723px;
+	top: 70px;
+	position: absolute;
+	overflow: visible;
+	width: 797px;
+	height: 90px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 55px;
+	color: rgba(224,98,23,1);
+
+}
+#Retngulo_6 {
+	fill: rgba(224,98,23,1);
+    
+}
+.Retngulo_6 {
+	position: absolute;
+	overflow: visible;
+	width: 701px;
+	height: 5px;
+	left: 601px;
+	top: 132px;
+}
+#LOGO_MERCADO_RURAL {
+	position: absolute;
+	
+    
+    height: 145px;
+    width: 592px;
+    
+
+	
+	left: 680px;
+	top: 570px;
+	overflow: visible;
+}
+#Retngulo_9 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Retngulo_9 {
+	position: absolute;
+	overflow: visible;
+	width: 521px;
+	height: 392px;
+	left: 700px;
+	top: 200px;
+
+}
+.usuario {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(224,98,23,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+    
+    
+}
+#usuario {
+	overflow: visible;
+	position: absolute;
+	width: 454px;
+	height: 79px;
+	left: 731px;
+	top: 270px;
+	transform: matrix(1,0,0,1,0,0);
+    font-size: 20px;
+    border: 2px solid #ff5e00;
+    padding-left: 10px;
+
+}
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.senha {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(224,98,23,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+#senha {
+	position: absolute;
+	overflow: visible;
+	width: 454px;
+	height: 79px;
+	left: 731px;
+	top: 400px;
+    transform: matrix(1,0,0,1,0,0);
+    font-size: 20px;
+    padding-left: 10px;
+    border: 2px solid #ff5e00;
+	
+}
+#button {
+	fill: rgba(255,98,0,1);
+}
+#button {
+	position: absolute;
+    background-color: rgba(255,98,0,1);
+	overflow: visible;
+	width: 454px;
+	height: 50px;
+	left: 731px;
+	top: 510px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;;
+    cursor: pointer;
+
+	
+}
+#button:hover {
+	background-color: rgba(255,255,255,1);
+	-webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#INFORME_SEU_USURIO_E_SENHA {
+	left: 731px;
+	top: 240px;
+	position: absolute;
+	overflow: visible;
+	width: 455px;
+	height: 24px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+	
+}
+#USURIO {
+	left: 734px;
+	top: 272px;
+	position: absolute;
+	overflow: visible;
+	width: 455px;
+	height: 13px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+
+}
+#SENHA {
+	left: 734px;
+	top: 400px;
+	position: absolute;
+	overflow: visible;
+	width: 455px;
+	height: 13px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 10px;
+	color: rgba(0,0,0,1);
+	
+}
+
+

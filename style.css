@@ -1,0 +1,202 @@
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+* {
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+
+nav {
+    width: 100%;
+    text-align: center;
+    z-index: 99999;
+}
+nav a {
+    display: block;
+    padding: 15px 0;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+nav li:last-child a {
+    border-bottom: none;
+  }
+
+
+
+      
+      
+   
+      .menu {
+            width: 240px;
+            height: 100%;
+            position: fixed;
+            top: 50px;
+            left: 0px;
+            background-color: rgb(255, 136, 0);
+            left: -240px;
+            transition: all .3s ease-in-out;
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            
+
+
+            
+        }
+
+        .menu-icon {
+            padding: 10px 20px;
+            background-color: rgb(255, 136, 0);
+            cursor: pointer;
+            float: left;
+            margin-top: 4px;
+            border-radius: 5px;
+            position: fixed;
+            width: 100%;
+            z-index: 10;
+            top: 0;
+            left: 0;
+            
+          
+        
+            
+
+        }
+
+       #menuToggle {
+            display: none;
+          
+            
+            
+            
+        }
+
+        #menuToggle:checked ~ .menu {
+            position: fixed;
+            left: 0;
+            
+            
+        }
+
+        #menuToggle:checked ~ .mainarea {
+            position: fixed;
+            left: 0;
+            
+            
+            
+            
+        }
+
+
+        
+        .form-control {
+            text-transform: uppercase;
+        }
+
+
+ #button {
+    background-color: rgba(224,98,23,1);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+       
+
+#tela {
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+    
+}
+ /* Colocar o vídeo mais a direita do site */
+
+
+#MANUALIMG{
+    left: 1000px;
+	top: 125px;
+	position: sticky;
+	overflow: visible;
+	float: left;
+    z-index: 1;
+    cursor: pointer;
+}
+#MANUALIMG:hover img{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+
+}
+#INSTAGRAMIMG{
+    left: 1000px;
+	top: 270px;
+	position: sticky;
+	overflow: visible;
+	float: left;
+    z-index: 1;
+    cursor: pointer;
+
+
+}
+#INSTAGRAMIMG:hover img{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+
+}
+#FACEBOOKIMG{
+    left: 1200px;
+	top: 125px;
+	position: sticky;
+	overflow: visible;
+	float: left;
+    z-index: 1;
+    cursor: pointer;
+}
+#FACEBOOKIMG:hover img{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+
+}
+#LINKEDINIMG{
+    left: 1200px;
+	top: 270px;
+	position: sticky;
+	overflow: visible;
+    float: left;
+    z-index: 1;
+    cursor: pointer;
+}
+#LINKEDINIMG:hover img{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+
+}
+
+
